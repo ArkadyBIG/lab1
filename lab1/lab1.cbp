@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="lab1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/lab1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/lab1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="ADD_IN_FILE.cpp" />
+		<Unit filename="ADD_IN_FILE.h" />
+		<Unit filename="BENCHMARK.cpp" />
+		<Unit filename="BENCHMARK.h" />
+		<Unit filename="EDIT_PRODUCT.cpp" />
+		<Unit filename="EDIT_PRODUCT.h" />
+		<Unit filename="Product.h" />
+		<Unit filename="REED_FILE.cpp" />
+		<Unit filename="REED_FILE.h" />
+		<Unit filename="choose_a_choise.cpp" />
+		<Unit filename="choose_a_choise.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="search_product.cpp" />
+		<Unit filename="search_product.h" />
+		<Unit filename="show_products.cpp" />
+		<Unit filename="show_products.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

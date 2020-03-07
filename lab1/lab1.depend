@@ -1,0 +1,106 @@
+# depslib dependency file v1.0
+1583346504 source:d:\programs\lab1\choose_a_choise.cpp
+	<bits/stdc++.h>
+	<vector>
+	<windows.h>
+	<conio.h>
+
+1583427553 source:d:\programs\lab1\main.cpp
+	<iostream>
+	"choose_a_choise.h"
+	"Product.h"
+	"REED_FILE.h"
+	"ADD_IN_FILE.h"
+	"show_products.h"
+	"search_product.h"
+	"EDIT_PRODUCT.h"
+	"BENCHMARK.h"
+
+1579711373 d:\programs\lab1\choose_a_choise.h
+	<vector>
+
+1579781339 source:d:\programs\lab1\reed_file.cpp
+	<bits/stdc++.h>
+	<vector>
+	<fstream>
+	<cmath>
+	"Product.h"
+
+1579718162 d:\programs\lab1\product.h
+	<bits/stdc++.h>
+	<vector>
+	<windows.h>
+	<conio.h>
+
+1579810102 d:\programs\lab1\reed_file.h
+
+1579722487 d:\programs\lab1\add_in_file.h
+
+1580812845 source:d:\programs\lab1\add_in_file.cpp
+	<bits/stdc++.h>
+	<fstream>
+	<cmath>
+	<string>
+	"Product.h"
+
+1583346447 source:d:\programs\lab1\show_products.cpp
+	<bits/stdc++.h>
+	<vector>
+	<fstream>
+	<cmath>
+	<windows.h>
+	"Product.h"
+
+1579850268 d:\programs\lab1\show_products.h
+	<bits/stdc++.h>
+	<vector>
+	<fstream>
+	<cmath>
+	"Product.h"
+
+1579851647 d:\programs\lab1\search_product.h
+
+1580122717 source:d:\programs\lab1\search_product.cpp
+	<bits/stdc++.h>
+	<vector>
+	<windows.h>
+	<cmath>
+	"choose_a_choise.h"
+	"show_products.h"
+	"Product.h"
+	"REED_FILE.h"
+
+1583428033 source:d:\programs\lab1\edit_product.cpp
+	<bits/stdc++.h>
+	<vector>
+	<windows.h>
+	<cmath>
+	<random>
+	<ctime>
+	"choose_a_choise.h"
+	"show_products.h"
+	"Product.h"
+	"REED_FILE.h"
+	"ADD_IN_FILE.h"
+	"search_product.h"
+
+1579851899 d:\programs\lab1\edit_product.h
+	<bits/stdc++.h>
+	<vector>
+	<fstream>
+	<cmath>
+	"Product.h"
+
+1582016366 d:\programs\lab1\benchmark.h
+	<iostream>
+
+1583426827 source:d:\programs\lab1\benchmark.cpp
+	<windows.h>
+	<iostream>
+	<vector>
+	<ctime>
+	<random>
+	<fstream>
+	"Product.h"
+	"choose_a_choise.h"
+
