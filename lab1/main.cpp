@@ -7,6 +7,8 @@
 #include "search_product.h"
 #include "EDIT_PRODUCT.h"
 #include "BENCHMARK.h"
+#include "DEMONSTRTION.h"
+
 using namespace std;
 //
 vector<type_product> product(0);
@@ -20,7 +22,7 @@ int main()
     }
     while(1)
     {
-        switch(choose({"SHOW ALL PRODUCTS","SEARCH","EDIT","BENCHMARK MODE","EXIT"}))
+        switch(choose({"SHOW ALL PRODUCTS","SEARCH","EDIT","BENCHMARK MODE","DEMONSTRATION","EXIT"}))
         {
         case 0:
             system("cls");
@@ -50,6 +52,10 @@ int main()
 
             break;
         case 4:
+            DEMONSTRATION();
+            system("cls");
+            break;
+        case 5:
             return 1;
         }
     }
